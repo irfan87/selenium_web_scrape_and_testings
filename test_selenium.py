@@ -22,6 +22,7 @@ search.send_keys(Keys.RETURN)
 
 # time.sleep(5)
 
+
 try:
     main = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "main"))
